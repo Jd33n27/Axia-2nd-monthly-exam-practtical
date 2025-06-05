@@ -17,7 +17,7 @@ body {
 
 .top {
   background-image: linear-gradient(#a95bd96c, #a95bd96c),
-    url("/images/image-header-mobile.jpg");
+    url("images/image-header-mobile.jpg");
   display: flex;
   background-position: center;
   background-size: cover;
@@ -84,7 +84,7 @@ body {
     width: 50%;
     height: 100%;
     background-image: linear-gradient(#a95bd96c, #a95bd96c),
-      url("/images/image-header-desktop.jpg");
+      url("images/image-header-desktop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
