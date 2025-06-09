@@ -5,43 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Stats Preview Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <!-- Text Area -->
-      <div class="buttom left">
-        <div class="textArea">
-          <div class="">
-            <h1>
-              Get <span id="purpleText">insights </span>that help your business
-              grow.
-            </h1>
-          </div>
-          <div class="">
-            <p>
-              Discover the benefits of data analytics and make better decisions
-              regarding revenue, customer experience, and overall efficiency.
-            </p>
-          </div>
-          <div class="brief-info">
-            <div class="featured-texts">
-              <h2>10k+</h2>
-              <p>companies</p>
-            </div>
-            <div class="featured-texts">
-              <h2>314</h2>
-              <p>templates</p>
-            </div>
-            <div class="featured-texts">
-              <h2>12m+</h2>
-              <p>queries</p>
-            </div>
-          </div>
+    <main>
+      <div class="container">
+        <!-- Image Area -->
+        <div class="image-container">
+          <picture>
+            <source
+              srcset="./images/image-header-desktop.jpg"
+              media="(min-width:768px)"
+            />
+
+            <img
+              src="./images/image-header-mobile.jpg"
+              alt="a group of ladies smiling"
+            />
+          </picture>
+        </div>
+
+        <!-- Text Area -->
+        <div class="text-container">
+          <h1 class="first-heading">
+            Get <span>insights</span> that help your business
+            grow.
+          </h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <ul>
+            <li>
+              <span class="top-statistic">10k+</span>
+              <span class="bottom-statistic">companies</span>
+            </li>
+            <li>
+              <span class="top-statistic">314</span>
+              <span class="bottom-statistic">templates</span>
+            </li>
+            <li>
+              <span class="top-statistic">12m+</span>
+              <span class="bottom-statistic">queries</span>
+            </li>
+          </ul>
         </div>
       </div>
-
-      <!-- Image Area -->
-      <div class="top right"></div>
-    </div>
+    </main>
   </body>
 </html>
+
+<!-- download mobile simulator extension -->
